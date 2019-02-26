@@ -1,39 +1,36 @@
 
 # Liri-Node-App
-LIRI is a command line node app that takes in parameters and gives you back data. LIRI is an app like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface.
+Liri-Node-App is a command line node app that takes in parameters and gives you back data. LIRI is an app like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface.
 
 
 # Overview
-LIRI is a useful multi-part informational application that works in the terminal using node.js to search for upcoming concert venues and dates for artists in musical bands, songs, movies, and finally a search call a  computer-generated search whose command is pulled from a random text file that a user can change.
+LIRI is a useful multi-part informational application that works in the terminal/bash window using node.js to search for upcoming concert venues and dates for artists in musical bands, songs, movies, and finally a computer-generated search whose command is pulled from a random text file that a user can change.
 
-# Liri-Node-App uses:
 
+## Technologies used
+
+• Git
+• GitHub
+• Javascript
+• Node.js
+• Node packages:
 • Node-Spotify-API
-
-• OMDB-API
-
-• Axios - grabs data from the OMDB API and the Bands In Town API
-
-• Moment
-
 • Request
-
+• Moment
 • DotEnv
-
-APIs
-
+• APIs used:
 • Bands in Town
-
 • OMDB
 
 
 
-
-
-# Link to GitHub repository.![GitHub Logo]
+# Link to GitHub repository.
 https://shannonruder.github.io/liri-node-app/.
 
+
 # Directions for use:
+
+1. Clone the repository to your local drive. Run npm install
 
 1. Open your terminal such as Bash.
 
@@ -41,9 +38,8 @@ https://shannonruder.github.io/liri-node-app/.
 
 3. Depending on the command you run, the output will vary.
 
+    run with node.js typing into the terminal: node liri <liriReturn1> <liriReturn2>
 
-
-4. run with node.js typing into the terminal: node liri <liriReturn1> <liriReturn2>
 
 <liriReturn1> can be:
 
@@ -120,19 +116,7 @@ Format: ![screenshot of movie-this](https://shannonruder.github.io/liri-node-app
 do-what-it-says ![GitHub Logo](/images/dwis.png)
 Format: ![screenshot of do-what-it-says](https://shannonruder.github.io/liri-node-app/images/dwis.png)
 
-# Technologies Used
-Git
-GitHub
-Javascript
-Nodejs
-Node packages:
-Node-Spotify-API
-Request
-Moment
-DotEnv
-APIs used:
-Bands in Town
-OMDB
 
-=======
+
+
 
