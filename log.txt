@@ -1,0 +1,129 @@
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 13:50:05 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:12:18 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:13:03 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song,3,Kissed,by,a,Rose
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:13:56 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song,Kissed,by,a,Rose
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:15:58 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:17:07 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song,If I Ain't Got You,3
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:17:35 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song,If I Ain't Got You,3
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:21:23 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song,If I Ain't Got You
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:21:47 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song,If I Ain't Got You
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:22:08 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song,If I Ain't Got You
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:23:36 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song,3,Kiss,by,a,Rose
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:25:36 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song
+
+Data Output: 
+-----Spotify Log Entry Start-----
+Processed on:
+Sat Feb 23 2019 14:26:26 GMT-0800 (Pacific Standard Time)
+
+terminal commands:
+/usr/local/Cellar/node/11.0.0/bin/node,/Users/shannonruder/Desktop/bootcamp/hw-submissions/liri-node-app/liri.js,spotify-this-song,4,Kissed,by,a,Rose
+
+Data Output: 
+command log at: 14:15:24. Params: do-what-it-says; undefined; 
+command log at: 14:28:35. Params: spotify-this-song; undefined; 
+command log at: 14:29:10. Params: spotify-this-song; undefined; 
+command log at: 14:30:22. Params: spotify-this-song; The; 
+command log at: 14:31:15. Params: spotify-this-song; Proud; 
+command log at: 14:31:44. Params: spotify-this-song; Peggy; 
+command log at: 14:34:38. Params: do-what-it-says; undefined; 
+command log at: 14:40:34. Params: spotify-this-song; Peggy; 
+command log at: 14:45:47. Params: spotify-this-song; Candle; 
+command log at: 15:33:49. Params: spotify-this-song; undefined; 
+command log at: 15:34:43. Params: spotify-this-song; Satisfaction; 
+command log at: 15:35:06. Params: spotify-this-song; My; 
+command log at: 15:36:36. Params: spotify-this-song; My; 
+command log at: 15:36:55. Params: spotify-this-song; My; 
+command log at: 15:37:27. Params: spotify-this-song; My; 
+command log at: 15:37:40. Params: spotify-this-song; Satisfaction; 
+command log at: 15:37:53. Params: spotify-this-song; undefined; 
+command log at: 15:39:35. Params: do-what-it-says; undefined; 
+command log at: 16:55:51. Params: spotify-this-song; undefined; 
+command log at: 16:56:31. Params: do-what-it-says; undefined; 
+command log at: 16:58:20. Params: do-what-it-says; undefined; 
+command log at: 17:00:37. Params: spotify-this-song; undefined; 
+command log at: 17:40:00. Params: spotify-this-song; undefined; 
+command log at: 17:40:16. Params: spotify-this-song; If I Ain't Got You; 
+command log at: 17:41:12. Params: do-what-it-says; undefined; 
