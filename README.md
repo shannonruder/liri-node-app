@@ -106,15 +106,15 @@ returns value depending on <liriReturn1> and <liriReturn2>.
 # Screenshots:
 
 
-concert-this ![GitHub Logo](/images/concertthis.png)
+concert-this
 Format: ![screenshot of concert-this](https://shannonruder.github.io/liri-node-app/images/concertthis.png)
 
 
-spotify-this-song  ![GitHub Logo](/images/sts.png)
+spotify-this-song 
 Format: ![screenshot of spotify-this-song](https://shannonruder.github.io/liri-node-app/images/sts.png)
 Format: ![screenshot of spotify-this-song](https://shannonruder.github.io/liri-node-app/images/sts2.png)
 
-movie-this  ![GitHub Logo](/images/mt.png)
+movie-this  
 Format: ![screenshot of movie-this](https://shannonruder.github.io/liri-node-app/images/mt.png)
 
 do-what-it-says ![GitHub Logo](/images/dwis.png)
