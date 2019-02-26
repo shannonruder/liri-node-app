@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LIRI-NODE-APP
 LIRI is a command line node app that takes in parameters and gives you back data. LIRI is an app like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface.
 
@@ -132,3 +133,7 @@ Bands in Town
 OMDB
 Git
 GitHub
+=======
+# liri-node-app
+LIRI is a _Language_ Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.
+>>>>>>> a217a7bcacf8cd703b0bc365b62d421e49cb3991
