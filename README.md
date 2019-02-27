@@ -1,105 +1,171 @@
 
-# Liri-Node-App
-Liri-Node-App is a command line node app that takes in parameters and gives you back data. LIRI is an app like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface.
+# liri-node-app
+
+**Creator**: `Shannon Ruder`
+
+**Created on**: `Feb 26 2019`
+
+- - -
+
+## Overview
 
 
-# Overview
-LIRI is a useful multi-part informational application that works in the terminal/bash window using node.js to search for upcoming concert venues and dates for artists in musical bands, songs, movies, and finally a computer-generated search whose command is pulled from a random text file that a user can change.
+LIRI is a Language Interpretation and Recognition Interface.LIRI is an app like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Liri-Node-App is a command line node app that takes in parameters and gives you back data. 
 
 
-## Technologies used
+LIRI is an application that works in the terminal/bash window using node(using axios,fs, and require) to search for upcoming concert venues and dates for artists in musical bands, songs, movies, and finally a computer-generated search whose command is pulled from a text file that a user can change.
 
-• Git
-• GitHub
-• Javascript
-• Node.js
-• Node packages:
-• Node-Spotify-API
-• Request
-• Moment
-• DotEnv
-• APIs used:
-• Bands in Town
-• OMDB
+- - -
 
+## HOW TO USE LIRI
+### **Video Guide**
 
+Watch the video here: https://drive.google.com/file/d/1rT4qbvQoZnfuvI2KZXd_XE3xHcxFMZR9/view
 
-# Link to GitHub repository.
-https://shannonruder.github.io/liri-node-app/.
+- - -
 
+## About the App
 
-# Directions for use:
+The user has the option of using four commands (listed below) in conjunction with specific parameters associated with the commands. The  `Commands` are:
 
-1. Clone the repository to your local drive. Run npm install
+   * `concert-this`
 
-1. Open your terminal such as Bash.
+   * `spotify-this-song`
 
-2. Navigate to the folder that contains the liri.js file.
+   * `movie-this`
 
-3. Depending on the command you run, the output will vary.
+   * `do-what-it-says`
 
-    run with node.js typing into the terminal: node liri <liriReturn1> <liriReturn2>
+- - -
+
+## Directions for use:
+
+1. Clone the repository to your local drive. 
+
+2. Run npm install
+
+3. Open your terminal such as Bash.
+
+4. Navigate to the folder that contains the liri.js file.
+
+5. Depending on the command you run, the output will vary.
+
+    run with node.js typing into the terminal: 
+    
+    
+                node liri <liriReturn1> <liriReturn2>
 
 
 <liriReturn1> can be:
 
-• concert-this
+   * `concert-this`
 
-• spotify-this-song
+   * `spotify-this-song`
 
-• movie-this
+   * `movie-this`
 
-• do-what-it-says
+   * `do-what-it-says`
 
 
 
-# concert-this
+## concert-this
 
 Example 1: Run the concert-this command
 
-node liri.js concert-this <artist/band name here>
+        `node liri.js concert-this <artist/band name here>`
 
-searches for the <liriReturn2> in Bands in Town Artist Events API and renders the following information about each event to the terminal:
+The artist/band name typed in is defined as <liriReturn2>. The `concert-this`
+    
+        searches for the <liriReturn2> in Bands in Town Artist Events API and renders the following information about each             event to the terminal:
 
-Name of the venue
-Venue location
-Date of the Event (uses moment to format date as "MM/DD/YYYY")
+            * Name of the venue
+            * Venue location
+            * Date of the Event (uses moment to format date as "MM/DD/YYYY")
 
 Output: The system will display a list of all events and locations where the artist or band will perform. It can result in multiple records. The system will also log all the results in the log.txt file. See screen-shots for each case below:
 
 
-# spotify-this-song
+## spotify-this-song
 
-searches for the <liriReturn2> in Bands in Town Artist Events API and renders the following information about each event to the terminal:
+Example 2: Run the `spotify-this-song` command
 
-Artist/Band(s)
-The song's name
-A preview link of the song from Spotify
-The album that the song is from
+        `node liri.js spotify-this-song '<song name here>'`
+
+The song name typed in is defined as <liriReturn2>. The `spotify-this-song`
+
+        searches for the <liriReturn2> in Node-Spotify-API and renders the following information about each 
+        song name to the terminal:
+
+            * Artist/Band(s)
+            * The song's name
+            * A preview link of the song from Spotify
+            * The album that the song is from
+
 and If there is no <liriReturn2> then program will default to "The Sign" by Ace of Base.
 
-# movie-this
+## movie-this
 
-searches for the <liriReturn2> in theOMDB API and renders the following information about each event to the terminal:
+Example 3: Run the `movie-this` command
 
-Title of the movie.
-Year the movie came out.
-IMDB Rating of the movie.
-Rotten Tomatoes Rating of the movie.
-Country where the movie was produced.
-Language of the movie.
-Plot of the movie.
-Actors in the movie.
+        `node liri.js movie-this '<movie name here>'`
+        
+The movie name argument in is defined as <liriReturn2>. The `movie-this`
+
+searches for the <liriReturn2> in the OMDB API and renders the following information about each event to the terminal:
+
+            * Title of the movie.
+            * Year the movie came out.
+            * IMDB Rating of the movie.
+            * Rotten Tomatoes Rating of the movie.
+            * Country where the movie was produced.
+            * Language of the movie.
+            * Plot of the movie.
+            * Actors in the movie.
+
+
 and If there is no <liriReturn2> then program will default to the movie 'Mr. Nobody.'
 
-# do-what-it-says
+## do-what-it-says
+
+Example 4: Run the `do-what-it-says` command
 
 reads the random.txt and uses first string as <liriReturn1> and second string (separated by ,) as <liriReturn2>:
 
 returns value depending on <liriReturn1> and <liriReturn2>.
 
+## Technologies used
 
-# Screenshots:
+   * Git
+
+   * GitHub
+
+   * Javascript
+
+   * Node.js
+
+• Node packages:
+
+   * `[Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)`
+   * `Request`
+   * `Moment`
+   * `DotEnv`
+   * `Axios`
+    
+   * APIs used:
+        * [Bands In Town API](http://www.artists.bandsintown.com/bandsintown-api)
+        * [OMDB API](http://www.omdbapi.com)
+
+- - -
+
+## Link to GitHub repository.
+
+    • [liri-node-app github repo](https://shannonruder.github.io/liri-node-app/)
+
+- - -
+
+
+
+## Screenshots:
 
 
 concert-this
@@ -113,10 +179,81 @@ Format: ![screenshot of spotify-this-song](https://shannonruder.github.io/liri-n
 movie-this  
 Format: ![screenshot of movie-this](https://shannonruder.github.io/liri-node-app/images/mt.png)
 
-do-what-it-says ![GitHub Logo](/images/dwis.png)
+do-what-it-says (/images/dwis.png)
 Format: ![screenshot of do-what-it-says](https://shannonruder.github.io/liri-node-app/images/dwis.png)
 
 
+
+
+
+
+# liri-node-app
+
+**Creator**: `Komal Batra`
+
+**Created on**: `Oct 22nd 2018`
+
+- - -
+
+## ABOUT THE APP
+LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives back data. The user has the option of using four commands (listed below) in conjuntion with specific parameters associated with the commands. The  `Commands` are:
+
+   * `concert-this`
+
+   * `spotify-this-song`
+
+   * `movie-this`
+
+   * `do-what-it-says`
+
+- - -
+## HOW TO USE LIRI
+### **Video Guide**
+
+Watch the video here: https://drive.google.com/file/d/1rT4qbvQoZnfuvI2KZXd_XE3xHcxFMZR9/view
+
+### **Step by Step instructions**
+
+1. Open your terminal such as Bash.
+2. Navigate to the folder that contains the `liri.js` file. 
+3. Depending on the command you run, the output will vary. 
+
+    **Example 1**: Run the `concert-this` command
+    
+        node liri.js concert-this <name of artist or band>
+    
+    Output: The system will display a list of all events and locations where the artist or band will perform. It can result in multiple records. The system will also log all the results in the log.txt file. See screen-shot below:
+
+    ![Results](/screenshots/concert_this_results.PNG)
+
+    **Example 2**: Run the `spotify-this-song` command
+    
+        node liri.js spotify-this-song <name of song>
+    
+    Output: The system will display a list of information associated with the song. It can result in multiple records. The system will also log all the results in the log.txt file. See screen-shot below:
+
+    ![Results](/screenshots/spotify_this_results.PNG)
+
+    **Example 3**: Run the `movie-this` command
+    
+        node liri.js movie-this <name of movie>
+    
+    Output: The system will display information associated with the movie. The system will also log all the results in the log.txt file. See screen-shot below:
+
+    ![Results](/screenshots/movie_this_results.PNG)
+
+
+    **Example 4**: Run the `do-what-it-says` command
+        
+        node liri.js do-what-it-says
+        
+    Output: The system will read the text in the random.txt file, and perform the comman listed in the random.txt file. 
+    
+    See screen-shot below:
+
+    ![Results](/screenshots/dothis_this_results.PNG)
+
+- - -
 
 
 
