@@ -10,19 +10,11 @@
 ## Overview
 
 
-LIRI is a Language Interpretation and Recognition Interface.LIRI is an app like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. Liri-Node-App is a command line node app that takes in parameters and gives you back data. 
-
-
-LIRI is an application that works in the terminal/bash window using node(using axios,fs, and require) to search for upcoming concert venues and dates for artists in musical bands, songs, movies, and finally a computer-generated search whose command is pulled from a text file that a user can change.
+LIRI is a Language Interpretation and Recognition Interface. LIRI is an app like iPhone's SIRI except that it uses types in words instead of spoken words. Liri-Node-App is a command line node app that takes in parameters and gives you back data. This application works in the terminal/bash window using nodejs and node package modules(axios,fs, and require) to search for upcoming concert venues and dates for artists in musical bands, songs, movies, and finally a computer-generated search whose command is pulled from a text file that a user can change.
 
 - - -
 
 ## HOW TO USE LIRI
-### **Video Guide**
-
-Watch the video here: https://drive.google.com/file/d/1rT4qbvQoZnfuvI2KZXd_XE3xHcxFMZR9/view
-
-- - -
 
 ## About the App
 
