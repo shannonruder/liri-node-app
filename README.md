@@ -26,7 +26,7 @@ Watch the video here: https://drive.google.com/file/d/1rT4qbvQoZnfuvI2KZXd_XE3xH
 
 ## About the App
 
-The user has the option of using four commands <span style="color:blue">`<liriReturn1>`</span> (listed below) in conjunction with specific parameters <span style="color:red">`<liriReturn2>`</span>associated with the commands. The  <span style="color:blue">`<liriReturn1>`</span> are:
+The user has the option of using four commands `<liriReturn1>` (listed below) in conjunction with specific parameters `<liriReturn2>`associated with the commands. The `<liriReturn1>` are:
 
    * `concert-this`
 
@@ -53,7 +53,7 @@ The user has the option of using four commands <span style="color:blue">`<liriRe
     run with node.js typing into the terminal: 
     
     
-                `node liri  <span style="color:blue">`<liriReturn1>`</span><span style="color:red">`<liriReturn2>`</span>`
+                `node liri `<liriReturn1>` `<liriReturn2>``
 
 
 ## concert-this
@@ -62,9 +62,9 @@ Example 1: Run the concert-this command
 
         `node liri.js concert-this <artist/band name here>`
 
-The artist/band name typed in is defined as <span style="color:red">`<liriReturn2>`</span>. The `concert-this`
+The artist/band name typed in is defined as `<liriReturn2>`. The `concert-this`
     
-        searches for the <span style="color:red">`<liriReturn2>`</span> in Bands in Town Artist Events API and renders the following information about each             event to the terminal:
+        searches for the `<liriReturn2>`in Bands in Town Artist Events API and renders the following information about each             event to the terminal:
 
             * Name of the venue
             * Venue location
@@ -79,7 +79,7 @@ Example 2: Run the `spotify-this-song` command
 
         `node liri.js spotify-this-song '<song name here>'`
 
-The song name typed in is defined as <span style="color:red">`<liriReturn2>`</span>. The `spotify-this-song`
+The song name typed in is defined as `<liriReturn2>`. The `spotify-this-song`
 
         searches for the <liriReturn2> in Node-Spotify-API and renders the following information about each 
         song name to the terminal:
@@ -89,7 +89,7 @@ The song name typed in is defined as <span style="color:red">`<liriReturn2>`</sp
             * A preview link of the song from Spotify
             * The album that the song is from
 
-and If there is no <span style="color:red">`<liriReturn2>`</span> then program will default to "The Sign" by Ace of Base.
+and If there is no `<liriReturn2>` then program will default to "The Sign" by Ace of Base.
 
 ## movie-this
 
@@ -97,9 +97,9 @@ Example 3: Run the `movie-this` command
 
         `node liri.js movie-this '<movie name here>'`
         
-The movie name argument in is defined as <span style="color:red">`<liriReturn2>`</span>. The `movie-this`
+The movie name argument in is defined as `<liriReturn2>`. The `movie-this`
 
-searches for the <span style="color:red">`<liriReturn2>`</span> in the OMDB API and renders the following information about each event to the terminal:
+searches for the `<liriReturn2>` in the OMDB API and renders the following information about each event to the terminal:
 
             * Title of the movie.
             * Year the movie came out.
@@ -111,15 +111,15 @@ searches for the <span style="color:red">`<liriReturn2>`</span> in the OMDB API 
             * Actors in the movie.
 
 
-and If there is no <span style="color:red">`<liriReturn2>`</span> then program will default to the movie 'Mr. Nobody.'
+and If there is no `<liriReturn2>`then program will default to the movie 'Mr. Nobody.'
 
 ## do-what-it-says
 
 Example 4: Run the `do-what-it-says` command
 
-reads the random.txt and uses first string as <span style="color:blue">`<liriReturn1>`</span> and second string (separated by ,) as <span style="color:red">`<liriReturn2>`</span>:
+reads the random.txt and uses first string as `<liriReturn1>` and second string (separated by ,) as `<liriReturn2>`:
 
-returns value depending on <span style="color:blue">`<liriReturn1>`</span> and <span style="color:red">`<liriReturn2>`</span>.
+returns value depending on `<liriReturn1>`and `<liriReturn2>`.
 
 ## Technologies used
 
